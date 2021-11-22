@@ -30,7 +30,7 @@ const DUMMY_EVENTS = [
     isFeatured: true,
   },
 ];
-
+//https://test-71e73.firebaseio.com/
 export function getFeaturedEvents() {
   return DUMMY_EVENTS.filter((event) => event.isFeatured);
 }
